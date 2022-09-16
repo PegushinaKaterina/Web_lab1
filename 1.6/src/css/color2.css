@@ -1,0 +1,39 @@
+*{
+    --color-dark: #362E23;
+    --color-figure: #F3C301;
+    --color-submit: #6D6C3C;
+    --color-reset: #3A3C26;
+    --color-backqround-one: #E8E1DB;
+    --color-backqround-two: #C2BD6A60;
+}
+
+.input{
+
+}
+.input button, .input input, .input label{
+    /*background-color: var(--color-backqround-two);*/
+
+}
+
+
+.axis{
+    stroke: var(--color-dark);
+}
+.graph-text{
+    fill: var(--color-dark);
+}
+.figures{
+    stroke: var(--color-dark);
+    fill: var(--color-figure);
+}
+
+.table {
+    background-color: var(--color-backqround-one);
+}
+.table, .table-row div{
+    border-color: var(--color-dark);
+}
+.table-header-group div{
+    background-color: var(--color-backqround-two);
+}
+

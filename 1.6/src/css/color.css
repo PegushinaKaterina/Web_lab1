@@ -1,0 +1,64 @@
+*{
+    --color-dark: #203F59;
+    --color-figure: #8C7472;
+    --color-submit: #8C7472;
+    --color-reset: #203F59;
+    --color-backqround-one: #F2F2F2;
+    --color-backqround-two: #011640;
+}
+main{
+    background-image: url("../../2.jpg");
+}
+.input{
+
+    /*background-color: var(--color-backqround-one);*/
+    background-color: var(--color-backqround-two);
+    color: var(--color-dark);
+    border-color: var(--color-dark);
+}
+.input button, .input input, .input label{
+    /*background-color: var(--color-backqround-two);*/
+    background-color: var(--color-backqround-one);
+    color: inherit;
+}
+
+legend{
+    background-color:transparent;
+    color: inherit;
+}
+button[type=reset],button[type=submit]{
+    border-color: var(--color-backqround-one);
+    /*border-color: var(--color-dark);*/
+    color: var(--color-backqround-one);
+}
+button[type=reset]{
+    background-color: var(--color-reset);
+}
+button[type=submit]{
+    background-color: var(--color-submit);
+}
+
+.axis{
+    stroke: var(--color-dark);
+}
+.graph-text{
+    fill: var(--color-dark);
+}
+.figures{
+    stroke: var(--color-dark);
+    fill: var(--color-figure);
+}
+
+.table {
+    background-color: var(--color-backqround-one);
+}
+.table, .table-row div{
+    border-color: var(--color-dark);
+}
+.table-header-group div{
+    background-color: var(--color-backqround-two);
+}
+.error{
+    color: var(--color-figure);
+}
+
